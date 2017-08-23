@@ -1,5 +1,5 @@
 import _Vue from 'vue'
-export Vuex from 'vuex'
+const Vuex from 'vuex'
 
 _Vue.use(Vuex)
 
