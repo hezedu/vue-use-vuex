@@ -7,6 +7,12 @@ Fixed: must call Vue.use(Vuex) before creating a store instance.
 //Entry
 import Vue from 'vue';
 import 'vue-use-vuex';
-import someHaveStoreComponent from 'somePath';
+
+import App from './App.vue'; //Have import some store.
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
+})
 // ... no problem
 ```

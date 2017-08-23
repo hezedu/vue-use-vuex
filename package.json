@@ -20,7 +20,7 @@
     "name": "Du Wei"
   },
   "licenses": "MIT",
-  "email": "hezedu@hotmail.com",
+  "email": "tianxiazhizhong@gmail.com",
   "description": "Fixed: must call Vue.use(Vuex) before creating a store instance.",
   "bugs": {
     "url": "https://github.com/hezedu/vue-use-vuex/issues"
