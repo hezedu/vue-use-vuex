@@ -1,5 +1,5 @@
 {
-  "name": "vue-used-vuex",
+  "name": "vue-use-vuex",
   "version": "0.0.1",
   "main": "index.js",
   "preDependencies": {
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hezedu/vue-used-vuex"
+    "url": "https://github.com/hezedu/vue-use-vuex"
   },
   "author": {
     "name": "Du Wei"
@@ -23,6 +23,6 @@
   "email": "hezedu@hotmail.com",
   "description": "Fixed: must call Vue.use(Vuex) before creating a store instance.",
   "bugs": {
-    "url": "https://github.com/hezedu/vue-used-vuex/issues"
+    "url": "https://github.com/hezedu/vue-use-vuex/issues"
   }
 }

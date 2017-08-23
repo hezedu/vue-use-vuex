@@ -1,8 +1,12 @@
-# vue-used-vuex
+# vue-use-vuex
 Fixed: must call Vue.use(Vuex) before creating a store instance.
-## Useage
+## Install
+`npm install vue-use-vuex`
+## Example
 ```js
-import Vue from 'vue-used-vuex'
-import someHaveStoreComponents from './somePath'
-// no problem
+//Entry
+import Vue from 'vue';
+import 'vue-use-vuex';
+import someHaveStoreComponent from 'somePath';
+// ... no problem
 ```
