@@ -1,8 +1,9 @@
 {
   "name": "vue-use-vuex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
-  "preDependencies": {
+  "peerdependencies": {
+    "webpack": ">=2.x",
     "vue": "*",
     "vuex": "*"
   },
