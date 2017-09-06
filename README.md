@@ -4,7 +4,7 @@ Fixed: must call Vue.use(Vuex) before creating a store instance.
 `npm install vue-use-vuex`
 ## Example
 ```js
-//Entry
+//Just should import once in Entry.
 import Vue from 'vue';
 import 'vue-use-vuex';
 ```
