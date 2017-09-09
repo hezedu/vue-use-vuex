@@ -3,7 +3,7 @@ Fixed: must call Vue.use(Vuex) before creating a store instance.
 
 If you normally use vuex, just like this:
 ```js
-//Entry
+// Entry
 import Vue from 'vue';
 import Vuex from 'vuex';
 Vue.use(Vuex);
@@ -18,9 +18,10 @@ let's use **vue-use-vuex** to fixed it.
 `npm install vue-use-vuex`
 ## Example
 ```js
-//Just should import once in Entry.
+// Entry
 import Vue from 'vue';
-import 'vue-use-vuex';
+import 'vue-use-vuex'; // Just should import once
 import 'some-store.js';
-//no problem!
+
+// no problem!
 ```
