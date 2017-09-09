@@ -3,7 +3,6 @@
   "version": "0.2.1",
   "main": "index.js",
   "peerdependencies": {
-    "webpack": ">=2.x",
     "vue": "*",
     "vuex": "*"
   },
