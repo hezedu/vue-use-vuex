@@ -1,6 +1,6 @@
 {
   "name": "vue-use-vuex",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.js",
   "peerdependencies": {
     "webpack": ">=2.x",
